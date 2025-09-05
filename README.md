@@ -1,3 +1,5 @@
+[![Build and Push Docker Images](https://github.com/somb1/Ollama-Open-WebUI-RP/actions/workflows/build.yml/badge.svg)](https://github.com/somb1/Ollama-Open-WebUI-RP/actions/workflows/build.yml)
+
 > 🔄 Updated every 8 hours to always stay on the latest version.
 
 > In Open WebUI, Use the "Select a model" menu (top-left) to search and pull models from ollama.com. \
