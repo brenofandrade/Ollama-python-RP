@@ -10,6 +10,8 @@ else
   echo "***** START_OLLAMA is not set to TRUE. Skipping Ollama server start. *****"
 fi
 
-echo "***** Starting Open WebUI server... *****"
-open-webui serve &
-echo "***** Open WebUI server started *****"
+echo "***** Starting App server... *****"
+cd workspace/runpod_backend
+source env/bin/activate
+waitress-serve --listen=0.0.0.0:8000 main:app > ../logs/app.log
+echo "***** App server started *****"

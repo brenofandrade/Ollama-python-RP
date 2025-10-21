@@ -102,8 +102,6 @@ start_jupyter() {
 #                               Main Program                                   #
 # ---------------------------------------------------------------------------- #
 
-start_nginx
-
 execute_script "/pre_start.sh" "Running pre-start script..."
 
 echo "Pod Started"
